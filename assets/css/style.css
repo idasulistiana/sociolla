@@ -1,0 +1,158 @@
+ body{
+ 	color: #333;
+    font-family: monospace;
+    background-color: #fff;
+    letter-spacing: 3.2px;
+    font-size: 16px;
+ }
+/* .container_company{
+ 	margin-top: 50px;
+ }*/
+ .body-form{
+ 	margin-top: 80px;
+ }
+ #img-logo{
+ 	margin-top:-30px; 
+ }
+ .row-form{
+ 	margin-top: 70px;
+ }
+ fieldset.address legend{
+ 	margin-bottom: 0px;
+ 	border-bottom: 0px;
+ 	width: 21%;
+ 	padding-bottom:25px;
+}
+fieldset.address{
+    min-width: 0;
+    padding: 7px;
+    margin: 0;
+    border: 1px solid #ccc
+}
+fieldset.ask_us legend{
+ 	margin-bottom: 0px;
+ 	border-bottom: 0px;
+ 	width: 17%;
+ 	margin-bottom: 25px;
+}
+fieldset.ask_us{
+    min-width: 0;
+    padding: 7px;
+    margin: 0;
+    border: 1px solid #ccc
+}
+form .form-group #description{
+	height: 135px;
+}
+form .form-group #question{
+	height: 135px;
+}
+.btn-send-ask-us{
+	background-color: #333333;
+    border-radius: 0;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #333333;
+    margin-left: 9px;
+}
+.btn-send-ask-us:hover{
+	background-color: #333333;
+	opacity:0.8;
+}
+.btn-submit{
+	background-color: #333333;
+    border-radius: 0;
+     float: left;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #333333;
+}
+.btn-submit:hover{
+	background-color: #333333;
+	opacity:0.8;
+}
+.btn-submit:active{
+	background-color: #333333;
+	/*opacity:0.8;*/
+}
+.btn-submit:focus{
+	background-color: #333333;
+	border-color: #333333;
+	/*opacity:0.8;*/
+}
+.btn-cancel{
+	background-color: #3f6387;
+    border-radius: 0;
+    float: right;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #3f6387;
+}
+.btn-cancel:hover{
+	background-color:#3f6387;
+	opacity:0.8;
+}
+.form-group .form-control{
+	border-radius: 0px;
+}
+#form-company-profile .form-group{
+	padding-bottom: 9px;
+}
+form .ask_us .col-md-4{
+	padding: 0px;
+}
+.address .form-group{
+	padding-bottom: 9px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.ask_us .form-group{
+	padding-bottom: 9px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.body_loading{
+	height:60px;
+	background-color: #eeeeee;
+	z-index: 9999;
+	border:1px solid #333333;
+	/*position: absolute;*/
+}
+.loading{
+	background:url("../images/loading_32.gif");
+	height: 64px; 
+	background-repeat: no-repeat;
+	margin-top: 12px;
+}
+.alert-false{
+	border-radius: 0;
+    /*height: 60;*/
+    z-index: 9999;
+    /*position: absolute;*/
+     margin-top: -20px;
+}
+.alert-true{
+	border-radius: 0;
+    /*height: 60;*/
+    z-index: 9999;
+    /*position: absolute;*/
+
+}
+.loading_text{
+	background:url("../images/loading_text.gif");
+	background-repeat: no-repeat;
+	height: 64px;
+	margin-left: 30px;
+}
+.alert .alert-message{
+	font-weight: bold;
+}
+.btn-send-ask-us:focus{
+	background-color: #333333;
+}
